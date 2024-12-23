@@ -6,7 +6,7 @@ Feature:Web Test Case
     And   Go to "https://www.hepsiburada.com" address
     And   Accept cookies on the page
 
-  @test1
+  @WebTestCase
   Scenario: HepsiBuradaTestCase
     Given User wants to hover and click on the categories
       | Hover             | Click    |
